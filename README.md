@@ -1,2 +1,2 @@
 # Calculatrice-de-Djouaka-
-Devoir donner par M. Kinkeu Daniel à l'institut Saint Jean 
+Devoir de DJOUAKA DONJIO Inès Divine donner par M. Kinkeu Daniel à l'institut Saint Jean 
