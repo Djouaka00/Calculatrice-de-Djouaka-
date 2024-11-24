@@ -18,7 +18,7 @@ body{
     border: 3px solid #e44af2;
     padding: 20px;
     border-radius: 16px;
-    background: linear-gradient(30deg, #4befe1, #19df, #1aecec);
+    background: transparent;
     box-shadow: 0px 3px 15px rgba(rgba 219, 121, 214, 0.5);
 
 }
