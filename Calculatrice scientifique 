@@ -1,1 +1,69 @@
-branche
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/Style.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <div class="cadre">
+        <div class="ecran">
+            <input type="text" id="inputbox" placeholder="0">
+        </div>
+        <div class="touches">
+            <div class="heure">
+                
+            </div>
+            <div>
+                <button class="operation">AC</button>
+                <button class="operation">DEL</button>
+                <input type="button" id="nd" value="2nd"/>
+                <button class="operation">+</button>
+            </div>
+            <div id="fonction" style="display: none;"> 
+                <button class="operation">ln</button>
+                <button class="operation">e</button>
+                <button class="operation">^</button>
+                <button class="operation">rac</button>
+            
+                <button class="operation">dec</button>
+                <button class="operation">bin</button>
+                <button class="operation">oct</button>
+                <button class="operation">hex</button>
+
+                <button class="operation">cos</button>
+                <button class="operation">sin</button>
+                <button class="operation">tan</button>
+                <button class="operation">%</button>
+            </div>
+            <div>
+                <button class="numero">7</button>
+                <button class="numero">8</button>
+                <button class="numero">9</button>
+                <button class="operation">-</button>
+            </div>
+            <div>
+                <button class="numero">4</button>
+                <button class="numero">5</button>
+                <button class="numero">6</button>
+                <button class="operation">*</button>
+            </div>
+            <div>
+                <button class="numero">1</button>
+                <button class="numero">2</button>
+                <button class="numero">3</button>
+                <button class="operation">/</button>
+            </div>
+            <div>
+                <button class="numero">00</button>
+                <button class="numero">0</button>
+                <button class="operation">.</button>
+                <button class="operation">=</button>
+            </div>  
+        </div>  
+    </div>
+
+    <script src="Script/Main.js"></script>
+</body>
+</html>
